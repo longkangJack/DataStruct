@@ -6,7 +6,7 @@
 #include<string.h>
 #include<stdbool.h>
 #include<assert.h>
-
+//#include<vld.h>//检测内存泄漏的头文件
 #define DataType int
 #define CAPACITY 8
 typedef struct SeqList
@@ -24,4 +24,13 @@ size_t SeqListLength(SeqList* psl);
 void SeqListclear(SeqList* psl);
 bool SeqListIsempty(SeqList* psl);
 void SeqListSort(SeqList* psl);
+void SeqListReverse(SeqList* psl);
+bool SeqListModiftByPos(SeqList* psl, int pos, DataType item);
+void Destort_Seqlist(SeqList* psl);
+void ModifyByValue(SeqList* psl,int val,int x);
+int FindByPos(SeqList* psl, int pos, DataType* ret);
+int FindByVal(SeqList* psl, int val, DataType* ret);
+bool Pop_back(SeqList* psl);
+bool Pop_Front(SeqList* psl);
+bool SeqlistInc(SeqList* psl);
 #endif

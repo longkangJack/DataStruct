@@ -6,6 +6,17 @@ void SeqListInit(SeqList* psl, DataType sz)
 	psl->Base = (DataType*)malloc(sizeof(DataType)* (psl->capacity));
 	psl->size = 0;
 }
+bool SeqlistInc(SeqList* psl)
+{
+	assert(psl != NULL);
+	psl->Base = realloc(psl->Base, sizeof(DataType)* 2);
+	if (psl->Base == NULL)
+	{
+		printf("内存开辟失败>");
+		psl->capacity += 2;
+		return true;
+	}
+}
 bool SeqListIsempty(SeqList* psl)
 {
 
@@ -74,11 +85,7 @@ void SeqListclear(SeqList* psl)
 	}
 	else
 	{
-		DataType i = 0;
-		for (i = 0; i < psl->size; i++)
-		{
-			psl->Base[i] = 0;
-		}
+		psl->size = 0;
 	}
 }
 void SeqListSort(SeqList* psl)
@@ -98,4 +105,97 @@ void SeqListSort(SeqList* psl)
 			}
 		}
 	}
+}
+void SeqListReverse(SeqList* psl)
+{
+	DataType i = 0;
+	DataType Left = 0;
+	DataType Right = (psl->size) - 1;
+	DataType tmp = 0;
+	while (Left < Right)
+	{
+		tmp = psl->Base[Left];
+		psl->Base[Left] = psl->Base[Right];
+		psl->Base[Right] = tmp;
+		Left++;
+		Right--;
+	}
+}
+bool SeqListModiftByPos(SeqList* psl, int pos, DataType item)
+{
+	assert(psl != NULL);
+	if (SeqListIsempty(psl))
+	{
+		return false;
+	}
+	if (pos<0 || pos>psl->size - 1)
+	{
+		printf("输入的位置不合法\n");
+		return false;
+	}
+	psl->Base[pos] = item;
+	return true;
+}
+void ModifyByValue(SeqList* psl,int val,int x)
+{
+	DataType i = 0;
+	while (psl != NULL&& psl->Base[i] != val)
+	{
+		i++;
+	}
+	psl->Base[i] = x;
+}
+int FindByPos(SeqList* psl, int pos,DataType* ret)
+{
+	if (pos<0 || pos>psl->size)
+	{
+		printf("输入的位置不合法>");
+		return 0;
+	}
+	*ret = psl->Base[pos];
+	return *ret;
+}
+int FindByVal(SeqList* psl, int val, DataType* ret)
+{
+	DataType i = 0;
+	while (psl != NULL && psl->Base[i] != val&&i<psl->size)
+	{
+		i++;
+	}
+	if (i < psl->size)
+	{
+		*ret = psl->Base[i];
+		return *ret;
+	}
+	return -1;
+}
+bool Pop_back(SeqList* psl)
+{
+	DataType i = 0;
+	if (psl->size == 0)
+	{
+		printf("顺序表为空，不能删除>");
+		return false;
+	}
+	psl->size--;
+	return true;
+}
+bool Pop_Front(SeqList* psl)
+{
+	int i = 0;
+	if (SeqListIsempty(psl))
+	{
+		printf("顺序表为空，不能头删>");
+		return false;
+	}
+		for (i = 0; i <psl->size-1; i++)
+		psl->Base[i] = psl->Base[i + 1];
+		psl->size--;
+	return true;
+}
+void Destort_Seqlist(SeqList* psl)
+{
+	free(psl->Base);
+	psl->Base = NULL;
+	psl->capacity = psl->size = 0;
 }
