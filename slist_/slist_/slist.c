@@ -96,10 +96,74 @@ SListNode* SListFindByVal(SList* plist, DataType x)
 	}
 	return NULL;
 }
+SListNode* ReservrList(SList* plist)
+{
+	SListNode* q;
+	SListNode* p;
+	if (plist->First->next&&plist->First->next->next)
+	{
+		p = plist->First->next;
+		q = p->next;
+		p->next = NULL;
+		while (q)
+		{
+			p = q;
+			q = q->next;
+			p->next = plist->First->next;
+			plist->First->next = p;
+		}
+		return plist->First;
+	}
+	return plist->First;
+}
+int SListLength(SList* plist)
+{
+	return plist->size;
+}
+void SListClear(SList* plist)
+{
+	SListNode* p = plist->First->next;
+	while (p != NULL)
+	{
+		plist->First->next = p->next;
+		free(p);
+		p = plist->First->next;
+	}
+	plist->First = plist->Last = NULL;
+	plist->size = 0;
+
+}
+void DestorySList(SList* plist)
+{
+	SListClear(plist);
+	free(plist->First);
+	plist->First = plist->Last = NULL;//防止在内存中成为野指针
+}
+void InsertByVal(SList* plist, DataType x)
+{
+	SListNode* p = plist->First;
+	while (p->next != NULL&&x > p->next->data)
+	{
+		p = p->next;
+	}
+	SListNode* s = _Buynode(x);
+	if (p->next == NULL)
+	{
+		p->next = s;
+		plist->Last = s;
+	}
+	else
+	{
+		s->next = p->next;
+		p->next = s;
+	}
+	plist->size++;
+}
 bool SListDeleByVal(SList* plist, DataType x)
 {
 	SListNode* q;
 	SListNode* p = plist->First;
+
 	while (p != NULL && p->next->data != x)
 		p = p->next;
 	if (p == NULL)
