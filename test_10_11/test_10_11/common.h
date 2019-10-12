@@ -14,9 +14,11 @@ typedef struct List
 	size_t size;
 }List;
 void InitList(List* plist);
-void ListyourPop(List* plist,DataType x);
+void ListyourPush(List* plist,DataType x);
 void InitYourList(List* plist);
 void ShowmyList(List* plist);
 void showyourlist(List* plist);
-void ListmyPop(List* plist, DataType x);
+void ListmyPush(List* plist, DataType x);
 void reservelist(List* plist);
+void DestoryList(List* plist, List* pylist);
+void ContactList(List* plist, List* pylist);
