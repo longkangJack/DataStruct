@@ -1,0 +1,215 @@
+﻿生成启动时间为 2019/10/28 22:05:34。
+     1>项目“E:\比特科技学习1\比特科技C语言学习\二叉树.c\二叉树.c\二叉树.c.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\LDSGameMaster\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt bintree.c test.c
+         test.c
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(133): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\ldsgamemaster\vc\include\stdio.h(283) : 参见“scanf”的声明
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(341): error C2065: “LinkQueue”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(341): error C2146: 语法错误: 缺少“;”(在标识符“Q”的前面)
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(341): error C2065: “Q”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(343): warning C4013: “LinkQueueInit”未定义；假设外部返回 int
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(343): error C2065: “Q”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(347): warning C4013: “LinkQueueEn”未定义；假设外部返回 int
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(347): error C2065: “Q”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(349): warning C4013: “LinkQueueEmpty”未定义；假设外部返回 int
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(349): error C2065: “Q”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(353): warning C4013: “LinkQueueFront”未定义；假设外部返回 int
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(353): error C2065: “Q”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(353): warning C4047: “初始化”:“BinTreeNode *”与“int”的间接级别不同
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(355): warning C4013: “LinkQueueDe”未定义；假设外部返回 int
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(355): error C2065: “Q”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(361): error C2065: “Q”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(365): error C2065: “Q”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\stack.h(37): warning C4018: “>=”: 有符号/无符号不匹配
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\stack.h(119): warning C4033: “SeqStackTop”必须返回值
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(11): error C2011: “BinTreeNode”:“struct”类型重定义
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(11) : 参见“BinTreeNode”的声明
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(23): error C2011: “BinTree”:“struct”类型重定义
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(23) : 参见“BinTree”的声明
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(109): error C2084: 函数“void BinTreeInit(BinTree *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(33) : 参见“BinTreeInit”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(119): error C2084: 函数“void BinTreeCreate(BinTree *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(39) : 参见“BinTreeCreate”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(129): error C2084: 函数“void _BinTreeCreate_1(BinTreeNode **)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(35) : 参见“_BinTreeCreate_1”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(165): error C2084: 函数“BinTreeNode *_BinTreeCreate_2()”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(37) : 参见“_BinTreeCreate_2”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(203): error C2084: 函数“void BinTreeCreateByStr(BinTree *,char *,int *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(43) : 参见“BinTreeCreateByStr”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(211): error C2084: 函数“BinTreeNode *_BinTreeCreateByStr(char *,int *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(41) : 参见“_BinTreeCreateByStr”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(245): error C2084: 函数“void PreOrder(BinTree *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(49) : 参见“PreOrder”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(253): error C2084: 函数“void _PreOrder(BinTreeNode *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(47) : 参见“_PreOrder”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(271): error C2084: 函数“void InOrder(BinTree *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(53) : 参见“InOrder”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(279): error C2084: 函数“void _InOrder(BinTreeNode *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(51) : 参见“_InOrder”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(297): error C2084: 函数“void PostOrder(BinTree *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(57) : 参见“PostOrder”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(305): error C2084: 函数“void _PostOrder(BinTreeNode *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(55) : 参见“_PostOrder”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(327): error C2084: 函数“void LevelOrder(BinTree *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(61) : 参见“LevelOrder”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(335): error C2084: 函数“void _LevelOrder(BinTreeNode *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(59) : 参见“_LevelOrder”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(377): error C2084: 函数“size_t Size(BinTree *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(81) : 参见“Size”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(385): error C2084: 函数“size_t _Size(BinTreeNode *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(79) : 参见“_Size”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(399): error C2084: 函数“size_t Height(BinTree *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(85) : 参见“Height”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(407): error C2084: 函数“size_t _Height(BinTreeNode *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(83) : 参见“_Height”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(431): error C2084: 函数“BinTreeNode *Find(BinTree *,char)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(89) : 参见“Find”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(439): error C2084: 函数“BinTreeNode *_Find(BinTreeNode *,char)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(87) : 参见“_Find”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(465): error C2084: 函数“BinTreeNode *Parent(BinTree *,char)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(93) : 参见“Parent”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(473): error C2084: 函数“BinTreeNode *_Parent(BinTreeNode *,char)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(91) : 参见“_Parent”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(503): error C2084: 函数“void Clone(BinTree *,BinTree *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(99) : 参见“Clone”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(511): error C2084: 函数“BinTreeNode *_Clone(BinTreeNode *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(97) : 参见“_Clone”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(537): error C2084: 函数“bool Equal(BinTree *,BinTree *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(103) : 参见“Equal”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(545): error C2084: 函数“bool _Equal(BinTreeNode *,BinTreeNode *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(101) : 参见“_Equal”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(587): error C2065: “ListStack”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(587): error C2146: 语法错误: 缺少“;”(在标识符“st”的前面)
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(587): error C2065: “st”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(589): warning C4013: “ListStackInit”未定义；假设外部返回 int
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(589): error C2065: “st”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(591): warning C4013: “ListStackPush”未定义；假设外部返回 int
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(591): error C2065: “st”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(595): warning C4013: “ListStackEmpty”未定义；假设外部返回 int
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(595): error C2065: “st”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(599): warning C4013: “ListStackTop”未定义；假设外部返回 int
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(599): error C2065: “st”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(599): warning C4047: “=”:“BinTreeNode *”与“int”的间接级别不同
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(601): warning C4013: “ListStackPop”未定义；假设外部返回 int
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(601): error C2065: “st”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(607): error C2065: “st”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(611): error C2065: “st”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\stack.h(219): error C2371: “ListStackEmpty”: 重定义；不同的基类型
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\stack.h(225): error C2371: “ListStackInit”: 重定义；不同的基类型
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\stack.h(227): error C2040: “ListStackTop”:“BinTreeNode *(ListStack *)”与“BinTreeNode *(ListStack *)”的间接寻址级别不同
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\stack.h(229): error C2371: “ListStackPush”: 重定义；不同的基类型
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\stack.h(231): error C2371: “ListStackPop”: 重定义；不同的基类型
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(571): error C2084: 函数“void PreOrderNoR(BinTree *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(67) : 参见“PreOrderNoR”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(579): error C2084: 函数“void _PreOrderNoR(BinTreeNode *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(65) : 参见“_PreOrderNoR”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\test.c(119): fatal error C1071: 在注释中遇到意外的文件结束
+         bintree.c
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(133): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\ldsgamemaster\vc\include\stdio.h(283) : 参见“scanf”的声明
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(341): error C2065: “LinkQueue”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(341): error C2146: 语法错误: 缺少“;”(在标识符“Q”的前面)
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(341): error C2065: “Q”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(343): warning C4013: “LinkQueueInit”未定义；假设外部返回 int
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(343): error C2065: “Q”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(347): warning C4013: “LinkQueueEn”未定义；假设外部返回 int
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(347): error C2065: “Q”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(349): warning C4013: “LinkQueueEmpty”未定义；假设外部返回 int
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(349): error C2065: “Q”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(353): warning C4013: “LinkQueueFront”未定义；假设外部返回 int
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(353): error C2065: “Q”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(353): warning C4047: “初始化”:“BinTreeNode *”与“int”的间接级别不同
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(355): warning C4013: “LinkQueueDe”未定义；假设外部返回 int
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(355): error C2065: “Q”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(361): error C2065: “Q”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(365): error C2065: “Q”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\stack.h(37): warning C4018: “>=”: 有符号/无符号不匹配
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\stack.h(119): warning C4033: “SeqStackTop”必须返回值
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(11): error C2011: “BinTreeNode”:“struct”类型重定义
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(11) : 参见“BinTreeNode”的声明
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(23): error C2011: “BinTree”:“struct”类型重定义
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(23) : 参见“BinTree”的声明
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(109): error C2084: 函数“void BinTreeInit(BinTree *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(33) : 参见“BinTreeInit”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(119): error C2084: 函数“void BinTreeCreate(BinTree *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(39) : 参见“BinTreeCreate”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(129): error C2084: 函数“void _BinTreeCreate_1(BinTreeNode **)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(35) : 参见“_BinTreeCreate_1”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(165): error C2084: 函数“BinTreeNode *_BinTreeCreate_2()”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(37) : 参见“_BinTreeCreate_2”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(203): error C2084: 函数“void BinTreeCreateByStr(BinTree *,char *,int *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(43) : 参见“BinTreeCreateByStr”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(211): error C2084: 函数“BinTreeNode *_BinTreeCreateByStr(char *,int *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(41) : 参见“_BinTreeCreateByStr”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(245): error C2084: 函数“void PreOrder(BinTree *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(49) : 参见“PreOrder”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(253): error C2084: 函数“void _PreOrder(BinTreeNode *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(47) : 参见“_PreOrder”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(271): error C2084: 函数“void InOrder(BinTree *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(53) : 参见“InOrder”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(279): error C2084: 函数“void _InOrder(BinTreeNode *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(51) : 参见“_InOrder”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(297): error C2084: 函数“void PostOrder(BinTree *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(57) : 参见“PostOrder”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(305): error C2084: 函数“void _PostOrder(BinTreeNode *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(55) : 参见“_PostOrder”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(327): error C2084: 函数“void LevelOrder(BinTree *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(61) : 参见“LevelOrder”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(335): error C2084: 函数“void _LevelOrder(BinTreeNode *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(59) : 参见“_LevelOrder”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(377): error C2084: 函数“size_t Size(BinTree *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(81) : 参见“Size”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(385): error C2084: 函数“size_t _Size(BinTreeNode *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(79) : 参见“_Size”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(399): error C2084: 函数“size_t Height(BinTree *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(85) : 参见“Height”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(407): error C2084: 函数“size_t _Height(BinTreeNode *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(83) : 参见“_Height”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(431): error C2084: 函数“BinTreeNode *Find(BinTree *,char)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(89) : 参见“Find”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(439): error C2084: 函数“BinTreeNode *_Find(BinTreeNode *,char)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(87) : 参见“_Find”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(465): error C2084: 函数“BinTreeNode *Parent(BinTree *,char)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(93) : 参见“Parent”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(473): error C2084: 函数“BinTreeNode *_Parent(BinTreeNode *,char)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(91) : 参见“_Parent”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(503): error C2084: 函数“void Clone(BinTree *,BinTree *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(99) : 参见“Clone”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(511): error C2084: 函数“BinTreeNode *_Clone(BinTreeNode *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(97) : 参见“_Clone”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(537): error C2084: 函数“bool Equal(BinTree *,BinTree *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(103) : 参见“Equal”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(545): error C2084: 函数“bool _Equal(BinTreeNode *,BinTreeNode *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(101) : 参见“_Equal”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(587): error C2065: “ListStack”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(587): error C2146: 语法错误: 缺少“;”(在标识符“st”的前面)
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(587): error C2065: “st”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(589): warning C4013: “ListStackInit”未定义；假设外部返回 int
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(589): error C2065: “st”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(591): warning C4013: “ListStackPush”未定义；假设外部返回 int
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(591): error C2065: “st”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(595): warning C4013: “ListStackEmpty”未定义；假设外部返回 int
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(595): error C2065: “st”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(599): warning C4013: “ListStackTop”未定义；假设外部返回 int
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(599): error C2065: “st”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(599): warning C4047: “=”:“BinTreeNode *”与“int”的间接级别不同
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(601): warning C4013: “ListStackPop”未定义；假设外部返回 int
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(601): error C2065: “st”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(607): error C2065: “st”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(611): error C2065: “st”: 未声明的标识符
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\stack.h(219): error C2371: “ListStackEmpty”: 重定义；不同的基类型
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\stack.h(225): error C2371: “ListStackInit”: 重定义；不同的基类型
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\stack.h(227): error C2040: “ListStackTop”:“BinTreeNode *(ListStack *)”与“BinTreeNode *(ListStack *)”的间接寻址级别不同
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\stack.h(229): error C2371: “ListStackPush”: 重定义；不同的基类型
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\stack.h(231): error C2371: “ListStackPop”: 重定义；不同的基类型
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(571): error C2084: 函数“void PreOrderNoR(BinTree *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(67) : 参见“PreOrderNoR”的前一个定义
+     1>e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(579): error C2084: 函数“void _PreOrderNoR(BinTreeNode *)”已有主体
+                 e:\比特科技学习1\比特科技c语言学习\二叉树.c\二叉树.c\bintree.c(65) : 参见“_PreOrderNoR”的前一个定义
+         正在生成代码...
+     1>已完成生成项目“E:\比特科技学习1\比特科技C语言学习\二叉树.c\二叉树.c\二叉树.c.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.22
