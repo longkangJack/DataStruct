@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二叉树.cc", "二叉树.cc\二叉树.cc.vcxproj", "{ECEE5068-F537-4641-9666-5A6BE7013DD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECEE5068-F537-4641-9666-5A6BE7013DD0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ECEE5068-F537-4641-9666-5A6BE7013DD0}.Debug|Win32.Build.0 = Debug|Win32
+		{ECEE5068-F537-4641-9666-5A6BE7013DD0}.Release|Win32.ActiveCfg = Release|Win32
+		{ECEE5068-F537-4641-9666-5A6BE7013DD0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
