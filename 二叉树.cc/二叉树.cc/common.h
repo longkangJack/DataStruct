@@ -6,8 +6,10 @@
 #include<stdbool.h>
 #include<Windows.h>
 #define DataType char
-
-
-
-
+void Swap(char *a, char *b)
+{
+	int t = *a;
+	*a = *b;
+	*b = t;
+}
 #endif

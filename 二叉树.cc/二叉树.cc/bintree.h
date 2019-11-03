@@ -11,11 +11,17 @@ typedef struct BinTree
 {
 	BinTreeNode *root; //根节点
 }BinTree;
+//二叉树创建
 void BinTreeInit(BinTree *t);
 void BinTreeCreate(BinTree *t);
 void _BinTreeCreate_1(BinTreeNode **t);//内部创建1
 BinTreeNode* _BinTreeCreate_2();//内部创建2
+BinTreeNode* _BinTreeCreatByStr(char *str, int *i);
+void BinTreeCreatByStr(BinTree *t, char *str, int *i);
 //////////////////////
+//二叉树遍历 递归实现
+void _PreOrder(BinTreeNode *t);//V L R遍历
+void PreOrder(BinTree *t);
 void BinTreeCreate(BinTree *t)//接口
 {
 	/*_BinTreeCreate_1(&t->root);*/
@@ -61,7 +67,33 @@ BinTreeNode* _BinTreeCreate_2()
 			return t;
 	}
 }
-
+void BinTreeCreateByStr(BinTree *t, char *str, int *i)
+{
+	t->root = _BinTreeCreateByStr(str, i);
+}
+BinTreeNode* _BinTreeCreateByStr(char *str, int *i)
+{
+	if (str[*i] == '#' || str[*i] == '\0')
+		return NULL;
+	else
+	{
+		BinTreeNode *t = (BinTreeNode*)malloc(sizeof(BinTreeNode));
+		t->data = str[*i];
+		(*i)++;
+		t->leftChild = _BinTreeCreateByStr(str, i);
+		(*i)++;
+		t->rightChild = _BinTreeCreateByStr(str, i);
+		return t;
+	}
+}
+void PreOrder(BinTree *t)//前序
+{
+	_PreOrder(t->root);
+}
+void _PreOrder(BinTreeNode *t)
+{
+	
+}
 //typedef BinTreeNode* BinTree;//二级指针目的是用一级指针，所以函数内部要用二级指针
 //void BinTreeInit(BinTree *t);
 //void BinTreeCreate_1(BinTree *t);

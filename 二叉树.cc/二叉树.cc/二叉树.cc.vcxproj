@@ -80,6 +80,7 @@
   <ItemGroup>
     <ClInclude Include="bintree.h" />
     <ClInclude Include="common.h" />
+    <ClInclude Include="HHeap.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TestMain.c" />
