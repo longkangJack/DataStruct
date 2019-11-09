@@ -8,18 +8,14 @@ int main()
 	int n = sizeof(arr) / sizeof(arr[0]);
 	int left = 0;
 	int right = n - 1;
-	//InsertSort(arr, left, right);//直接插入排序
-	PrintArr(arr, n);
-	printf("\n");
-	TwoWayInsert(arr,temp ,n );//二路插入排序
-	PrintArr(arr, n);
+	PrintArr(arr, left,right);
+	//TwoWayInsert(arr,temp ,n );//二路插入排序
+	//TestSort(arr, 0, n - 1);
+	PrintArr(arr, left,right);
+    //TestSortEfficiency();
 	system("pause");
 	return 0;
 }
-
-
-
-
 //int main()
 //{
 //	SList mylist;
