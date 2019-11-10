@@ -21,6 +21,12 @@
     <ClInclude Include="BinTree.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="BintTree!.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TestMain.c">
