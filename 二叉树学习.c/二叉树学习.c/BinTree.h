@@ -81,7 +81,6 @@ void _PreOrder(BinTreeNode *t)
 		_PreOrder(t->RightChild);//µÝ¹é·ÃÎÊÓÒÊ÷
 	}
 }
-
 void InOrder(BinTree *t)
 {
 	_InOrder(t->root);
