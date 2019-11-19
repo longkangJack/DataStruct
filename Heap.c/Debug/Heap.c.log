@@ -1,0 +1,8 @@
+﻿  Heap.c.cpp
+F:\比特科技学习1\比特科技C语言学习\Heap.c\Common.h(74,16): warning C4018: “<”: 有符号/无符号不匹配
+F:\比特科技学习1\比特科技C语言学习\Heap.c\Common.h(99,11): warning C4018: “<”: 有符号/无符号不匹配
+F:\比特科技学习1\比特科技C语言学习\Heap.c\Common.h(101,13): warning C4018: “<”: 有符号/无符号不匹配
+F:\比特科技学习1\比特科技C语言学习\Heap.c\Common.h(54): warning C4715: “HeapInsert”: 不是所有的控件路径都返回值
+F:\比特科技学习1\比特科技C语言学习\Heap.c\Common.h(86): warning C4715: “HeapTop”: 不是所有的控件路径都返回值
+F:\比特科技学习1\比特科技C语言学习\Heap.c\Common.h(94): warning C4715: “HeapRemove”: 不是所有的控件路径都返回值
+  Heap.c.vcxproj -> F:\比特科技学习1\比特科技C语言学习\Heap.c\Debug\Heap.c.exe
