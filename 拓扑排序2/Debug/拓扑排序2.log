@@ -1,0 +1,4 @@
+﻿  test.c
+C:\Users\longkangJack\source\repos\拓扑排序2\test.c(48,18): warning C4101: “v”: 未引用的局部变量
+C:\Users\longkangJack\source\repos\拓扑排序2\test.c(48,15): warning C4101: “w”: 未引用的局部变量
+  拓扑排序2.vcxproj -> C:\Users\longkangJack\source\repos\拓扑排序2\Debug\拓扑排序2.exe
